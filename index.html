@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEICA — The TechniquEcological Institute of California</title>
+  <meta name="description" content="We teach ecological technique and form the people who can steward California landscapes for generations.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&amp;family=Instrument+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <style>
+    :root { --green: #14532d; --navy: #1e2937; --cream: #f8f1e3; --gold: #b48c5e; }
+    body { font-family: 'Instrument Sans', system_ui, sans-serif; }
+    .font-display { font-family: 'EB Garamond', Georgia, serif; }
+    .teica-green { color: #14532d; }
+    .gold-accent { color: #b48c5e; }
+    .section { max-width: 1100px; margin: 0 auto; }
+    .logo-mark { width: 42px; height: 42px; }
+    .nav-link { transition: color .1s; }
+    .nav-link:hover { color: #14532d; }
+    .card { transition: all .2s cubic-bezier(.4,0,.2,1); }
+    .card:hover { transform: translateY(-1px); box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.05); }
+    .institute-header { border-bottom: 1px solid #e2d9c9; }
+  </style>
+</head>
+<body class="bg-[#f8f1e3] text-[#1e2937]">
+
+  <!-- Nav -->
+  <nav class="border-b border-[#e2d9c9] bg-[#f8f1e3]/95 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="logo-mark">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="22" stroke="#14532d" stroke-width="2.5"/>
+            <path d="M15 28 Q24 14 33 28" stroke="#14532d" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M18 32 Q24 23 30 32" stroke="#b48c5e" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="24" cy="21" r="3" fill="#14532d"/>
+          </svg>
+        </div>
+        <div class="flex flex-col leading-none">
+          <a href="./index.html" class="font-display text-2xl tracking-tight font-semibold teica-green -mt-px mb-[2px]">TEICA</a>
+          <div class="text-[8px] -mt-2 tracking-[0.5px] text-[#b48c5e] font-medium hidden lg:block">TECHNIQUECOLOGICAL INSTITUTE</div>
+          <div class="text-[8px] -mt-px tracking-[0.5px] text-[#b48c5e] font-medium hidden lg:block">OF CALIFORNIA</div>
+        </div>
+      </div>
+      <div class="hidden md:flex items-center gap-4 text-sm">
+        <a href="./starting-guide.html" class="nav-link text-[#475569]">Starting Guide</a>
+        <a href="./faq.html" class="nav-link text-[#475569]">FAQ</a>
+        <a href="./resources.html" class="nav-link text-[#475569]">Resources</a>
+        <a href="./health.html" class="nav-link text-[#475569]">Health</a>
+        <a href="./skills-tools.html" class="nav-link text-[#475569]">Skills &amp; Tools</a>
+      </div>
+      <div class="flex items-center gap-2">
+        <a href="./index.html#waitlist" class="px-3 py-1 text-xs rounded-full border border-[#b48c5e] text-[#b48c5e] hover:bg-[#b48c5e] hover:text-[#14532d] transition">Become a Steward</a>
+        <a href="#" class="px-3 py-1 text-xs rounded-full bg-[#14532d] text-[#f8f1e3] hover:bg-[#0f3f22]">Apply</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="section px-6 pt-16 pb-20">
+    <div class="max-w-3xl">
+      <div class="inline-flex items-center px-3 py-1 rounded-full bg-white border border-[#e2d9c9] text-xs tracking-widest mb-6">EST. 2026 • CALIFORNIA</div>
+      <h1 class="font-display text-7xl leading-[1.05] tracking-[-1.5px] font-semibold mb-6">
+        Technique.<br>
+        Ecology.<br>
+        <span class="gold-accent">Excellence.</span>
+      </h1>
+      <p class="max-w-md text-xl text-[#475569] mb-9">
+        The TechniquEcological Institute of California cultivates practical mastery of land and life, 
+        and the character required to steward both.
+      </p>
+      <div class="flex gap-3">
+        <a href="./index.html#waitlist" class="px-8 py-3.5 rounded-xl bg-[#14532d] text-[#f8f1e3] font-medium hover:bg-[#0f3f22]">Explore the Foundations</a>
+        <a href="./community-assessment.html" class="px-8 py-3.5 rounded-xl border border-[#b48c5e] hover:bg-white">Take the 2-min assessment</a>
+      </div>
+      <p class="mt-4 text-xs text-[#64748b]">Next cohort begins September 2026. Limited to 24 stewards.</p>
+    </div>
+  </section>
+
+  <!-- The Charge -->
+  <section id="mission" class="section px-6 py-16 border-t border-[#e2d9c9]">
+    <div class="grid md:grid-cols-12 gap-x-12 gap-y-8">
+      <div class="md:col-span-5">
+        <div class="uppercase tracking-[2px] text-xs mb-2 text-[#b48c5e]">Our Charge</div>
+        <h2 class="font-display text-5xl leading-none tracking-tight">We exist to form people who can form places.</h2>
+      </div>
+      <div class="md:col-span-7 text-[15px] leading-relaxed text-[#334155]">
+        <p class="mb-6">TEICA teaches the precise techniques of ecological cultivation — soil, water, plants, animals, structures — while deliberately developing the judgment, patience, and virtue required for long-term stewardship.</p>
+        <p>We begin with those who already work the land or wish to. We end with communities and institutions capable of caring for California’s landscapes for generations.</p>
+        <div class="mt-8 flex gap-8 text-sm">
+          <div><div class="font-semibold">Core disciplines</div><div class="text-[#64748b]">Agroecology • Hydrology • Building craft • Governance</div></div>
+          <div><div class="font-semibold">Human formation</div><div class="text-[#64748b]">Attention • Responsibility • Discernment • Generosity</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Pillars -->
+  <section class="bg-white py-16 border-y border-[#e2d9c9]">
+    <div class="section px-6">
+      <div class="flex justify-between items-end mb-8">
+        <div>
+          <div class="text-xs tracking-[1.5px] text-[#b48c5e]">THE WORK</div>
+          <h3 class="font-display text-4xl tracking-tight">Five pillars of practice</h3>
+        </div>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-5">
+        <div class="card bg-[#f8f1e3] border border-[#e2d9c9] rounded-2xl p-6">
+          <div class="text-3xl mb-3">🌾</div>
+          <div class="font-semibold mb-1">Food sovereignty</div>
+          <div class="text-sm text-[#475569]">Community gardens, seed saving networks, food forests, livestock cooperatives.</div>
+        </div>
+        <div class="card bg-[#f8f1e3] border border-[#e2d9c9] rounded-2xl p-6">
+          <div class="text-3xl mb-3">⚡</div>
+          <div class="font-semibold mb-1">Energy independence</div>
+          <div class="text-sm text-[#475569]">Solar, wind, microhydro, battery storage. Make your own power.</div>
+        </div>
+        <div class="card bg-[#f8f1e3] border border-[#e2d9c9] rounded-2xl p-6">
+          <div class="text-3xl mb-3">🛠️</div>
+          <div class="font-semibold mb-1">Tool libraries</div>
+          <div class="text-sm text-[#475569]">The community owns the tools. Borrow what you need, share what you have.</div>
+        </div>
+        <div class="card bg-[#f8f1e3] border border-[#e2d9c9] rounded-2xl p-6">
+          <div class="text-3xl mb-3">📚</div>
+          <div class="font-semibold mb-1">Skill sovereignty</div>
+          <div class="text-sm text-[#475569]">You know Excel, I know plumbing. We teach each other.</div>
+        </div>
+        <div class="card bg-[#f8f1e3] border border-[#e2d9c9] rounded-2xl p-6">
+          <div class="text-3xl mb-3">🏠</div>
+          <div class="font-semibold mb-1">Land access</div>
+          <div class="text-sm text-[#475569]">Collective land trusts, co-housing, stewardship models that last.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="section px-6 py-16">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="font-display text-4xl tracking-tight mb-12">How it works</h2>
+      <div class="grid md:grid-cols-3 gap-8 text-left">
+        <div class="card bg-[#f8f1e3] border border-[#e2d9c9] rounded-2xl p-6">
+          <div class="text-3xl mb-4">1</div>
+          <h3 class="font-semibold mb-2">Discover the foundations</h3>
+          <p class="text-sm text-[#475569]">Read the core guides and take the assessment to understand which path fits you.</p>
+        </div>
+        <div class="card bg-[#f8f1e3] border border-[#e2d9c9] rounded-2xl p-6">
+          <div class="text-3xl mb-4">2</div>
+          <h3 class="font-semibold mb-2">Join as a Steward</h3>
+          <p class="text-sm text-[#475569]">Share what you can offer and what you seek. Get connected to others building real practice in California.</p>
+        </div>
+        <div class="card bg-[#f8f1e3] border border-[#e2d9c9] rounded-2xl p-6">
+          <div class="text-3xl mb-4">3</div>
+          <h3 class="font-semibold mb-2">Grow through programs</h3>
+          <p class="text-sm text-[#475569]">Apply to Foundations, apprenticeships, or the annual Gathering. Build skill and character together.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-white py-16 border-y border-[#e2d9c9]">
+    <div class="section px-6">
+      <h2 class="font-display text-4xl tracking-tight text-center mb-10">What people are building</h2>
+      <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+        <div class="card border border-[#e2d9c9] rounded-2xl p-6 bg-[#f8f1e3]">
+          <p class="text-[#334155] italic mb-4">“We went from strangers on Nextdoor to a neighborhood that shares tools, skills, and a monthly dinner. It started with one post and a clear intention.”</p>
+          <p class="text-sm font-medium">— Neighborhood Steward, Oakland</p>
+        </div>
+        <div class="card border border-[#e2d9c9] rounded-2xl p-6 bg-[#f8f1e3]">
+          <p class="text-[#334155] italic mb-4">“The timebank changed how we think about value. My hours of help bought real garden work. No money, just trust and reciprocity.”</p>
+          <p class="text-sm font-medium">— Timebank member, San Francisco</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Waitlist -->
+  <section id="waitlist" class="section px-6 py-16">
+    <div class="max-w-xl mx-auto text-center">
+      <div class="uppercase tracking-[2px] text-xs mb-2 text-[#b48c5e]">FOUNDING PHASE</div>
+      <h2 class="font-display text-4xl tracking-tight mb-3">Join the first cohort of stewards</h2>
+      <p class="text-[#475569] mb-8">We're building slowly and deliberately. Sign up for early access to programs and the network.</p>
+    </div>
+    <form id="waitlist-form" class="max-w-md mx-auto space-y-4">
+      <input type="text" placeholder="Your name" class="w-full px-4 py-3 rounded-xl border border-[#e2d9c9] bg-white focus:outline-none focus:border-[#14532d]">
+      <input type="text" placeholder="City / Region in California" class="w-full px-4 py-3 rounded-xl border border-[#e2d9c9] bg-white focus:outline-none focus:border-[#14532d]">
+      <input type="text" placeholder="Skill or resource you can offer" class="w-full px-4 py-3 rounded-xl border border-[#e2d9c9] bg-white focus:outline-none focus:border-[#14532d]">
+      <input type="email" placeholder="Email for updates" class="w-full px-4 py-3 rounded-xl border border-[#e2d9c9] bg-white focus:outline-none focus:border-[#14532d]">
+      <button type="submit" class="w-full bg-[#14532d] text-[#f8f1e3] py-3.5 rounded-xl font-medium hover:bg-[#0f3f22]">Join as a Founding Steward</button>
+    </form>
+    <p class="text-center text-xs text-[#64748b] mt-4">We respect your time and inbox.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-[#e2d9c9] py-10">
+    <div class="section px-6 text-center text-sm text-[#64748b]">
+      <p class="mb-2">TEICA — The TechniquEcological Institute of California</p>
+      <div class="flex justify-center gap-4 text-xs">
+        <a href="./starting-guide.html" class="hover:text-[#14532d]">Starting Guide</a>
+        <span>·</span>
+        <a href="./faq.html" class="hover:text-[#14532d]">FAQ</a>
+        <span>·</span>
+        <a href="./resources.html" class="hover:text-[#14532d]">Resources</a>
+        <span>·</span>
+        <a href="./community-assessment.html" class="hover:text-[#14532d]">Assessment</a>
+      </div>
+      <p class="text-xs mt-4">Technique. Ecology. Excellence.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Simple form handler — saves to localStorage and shows success
+    // In production, hook up to a real backend / Sheet / Loops
+    document.getElementById('waitlist-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const form = e.target;
+      const data = {
+        name: form.name.value,
+        location: form.location.value,
+        offering: form.offering.value,
+        seeking: form.seeking.value,
+        email: form.email.value,
+        timestamp: new Date().toISOString()
+      };
+      
+      // Save locally for now
+      const submissions = JSON.parse(localStorage.getItem('TEICA_waitlist') || '[]');
+      submissions.push(data);
+      localStorage.setItem('TEICA_waitlist', JSON.stringify(submissions));
+      
+      // Also try to save to a simple endpoint if available
+      fetch('/api/waitlist', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      }).catch(() => {
+        // Offline or no endpoint — localStorage backup works
+      });
+      
+      form.classList.add('hidden');
+      document.getElementById('form-success').classList.remove('hidden');
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
